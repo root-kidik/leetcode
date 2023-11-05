@@ -1,4 +1,3 @@
-#study-principle
 
 ---
 ## stages
@@ -12,3 +11,6 @@
 
 1. learn (20% time)
 2. practice (80% time)
+
+___
+#ps #study-principle
