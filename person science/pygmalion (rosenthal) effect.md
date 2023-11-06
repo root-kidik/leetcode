@@ -8,4 +8,4 @@ ___
 4. **others actions** reinforce to **our beliefs**
 
 ___
-#ps #psychology 
+#ps #psychology

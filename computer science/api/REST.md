@@ -2,12 +2,12 @@ REST (**RE**presentational **S**tate **T**ransfer) - software architectural styl
 ___
 ## architectural constraints
 
-1. client-server architecture 
+1. client-server architecture
 2. statelessness
-3. cacheability 
+3. cacheability
 4. layered system
 5. code on demand
 6. uniform interface
 
-___ 
+___
 #cs #rest #api
