@@ -1,14 +1,12 @@
-# brain
-
-## [computer science](https://github.com/root-kidik/brain/tree/main/computer%20science)
-- [GraphQL](computer%20science/api/GraphQL.md)
-- [gRPC](computer%20science/api/gRPC.md)
-- [REST](computer%20science/api/REST.md)
-- [1. Two Sum](computer%20science/leetcode/hast%20table/1.%20Two%20Sum.md)
-- [26. Remove duplicates from Sorted Array](computer%20science/leetcode/two%20pointers/26.%20Remove%20duplicates%20from%20Sorted%20Array.md)
-- [27. Remove element](computer%20science/leetcode/two%20pointers/27.%20Remove%20element.md)
-- [35. Search Insert Position](computer%20science/leetcode/binary%20search/35.%20Search%20Insert%20Position.md)
-
-## [person science](https://github.com/root-kidik/brain/tree/main/person%20science)
-- [study principle](person%20science/study%20principle.md)
-- [pygmalion (rosenthal) effect](pygmalion%20(rosenthal)%20effect.md)
+___
+## Array
+- [66. Plus One](66.%20Plus%20One.md)
+- [88. Merge Sorted Array](88.%20Merge%20Sorted%20Array)
+- [108. Convert Sorted Array To BST](108.%20Convert%20Sorted%20Array%20To%20BST)
+- [118. Pascal's Triangle](118.%20Pascal's%20Triangle)
+- [119. Pascal's Triangle II](119.%20Pascal's%20Triangle%20II)
+- [121. Best Time To Buy And Sell Stock](121.%20Best%20Time%20To%20Buy%20And%20Sell%20Stock)
+- [136. Single Number](136.%20Single%20Number)
+- [169. Majority Element](169.%20Majority%20Element)
+- [217. Contains Duplicate](217.%20Contains%20Duplicate)
+- [219. Contains Duplicate II](219.%20Contains%20Duplicate%20II)
