@@ -102,4 +102,111 @@ ___
 100. [2273. Find Resultant Array After Removing Anagrams](2273.%20Find%20Resultant%20Array%20After%20Removing%20Anagrams)
 
 ___
+
+> [!tip] 
+> - `traversal`: 
+> 	- `begin` -> `end` 
+> 	- `end` -> `begin`
+> 	- `sliding window`
+> 	- `custom step`
+> 	- `row->col` : `[i][j]`
+> 	- `col->row`: `[j][i]`
+> - `map`:
+> 	- `freq `
+> 		- `decrease` when `appeared`
+> 	- `index`
+> 	- `weight`
+> 	- `exist`
+> - `sort`:
+> 	- `std::greater`
+> 	- `std::less`
+> - `std::`
+> 	- `sort`
+> 	- `unique`
+> 	- `count_if`
+> 	- `max_element`
+> 	- `find_if`
+> 	- `erase_if`
+> 	- `isalpha`
+> 	- `tolower`
+> 	- `distance`
+> 	- `gcd`
+> 	- `abs`
+> 	- `accumulate`
+> 	- `set_intersection`
+> 	- `reverse`
+> 	- `make_reverse_iterator`
+> - `containers`:
+> 	- `vector`
+> 	- `unordered_set`
+> 		- `hash`: `value % arrSz`
+> 	- `set`
+> 	- `unordered_map`
+> 		- `hash`: `value % arrSz`
+> 	- `map`
+> 	- `string`
+> 	- `priority_queue`
+> 	- `stack`
+> 	- `queue`
+> 	- `min_heap`: `std::priority_queue<int, std::vector<int>, std::greater<int>>`
+> 	- `max_heap`: `std::priority_queue<int>`
+> 	- `prefix_sum`: `prefix.emplace_back(prefix.back() + val);`
+> 	- `monotonic_stack`
+> 	- `optional`
+> 	- `istringstream`
+> - `two pointers`:
+> 	- `indices`: 
+> 		- `low`, `high`
+> 		- `processing, current`
+> 	- `interators`
+>- `math`:
+>	- triangle `area`: `std::abs((x1*(y2-y3) + x2*(y3-y1) + x3*(y1-y2)))`
+>	- triangle `is_exist`: `a <= b <= c` || `a + b > c`
+>	- `cross product`
+> - `number theory`:
+> 	- sum of `[0, N]`: `N * (N + 1) / 2`
+> 	- `num / 10` == `get next rank`
+> 	- `num % 10` == `get lowest rank`
+> 	- `xor` destory same elements in `any` order
+> 	- `sum` of `all elements` in range `[l, r]`: `prefix[r + 1] - prefix[l]`
+> 	- `index_distance`: `right - left + 1`
+> 	- `unique pair count`: `freq * (freq - 1) / 2`
+> 	- `max(arr[0] * arr[1] * arr[2], arr[-1] * arr[-2] * arr[-3])` to check `- * -`
+> 	- `ordered assign`: `f` -> `s` -> `t`
+> - `invariants`:
+> 	- `find` 
+> 	- `minimize`
+> 	- `keep inside loop`
+> 	- `keep by loop`
+> 	- `make better before start`
+> 	- use `std::max` || `std::min` as `barrier`
+> 	- `std::min(maximum, actual);`
+> 	- `std::max(minimum, actual);`
+> 	- `std::optional` as `not inited`
+> - `state`:
+> 	- `track` 
+> - `algorithms`:
+> 	- `BFS`
+> 	- `Moore Voting Algorithm`
+> 	- `binary search`
+> - `techniques`:
+> 	- `brute force`
+> 	- `greedy`
+> 	- `simulate`
+> 	- `dynamic programming`
+> 	 - `divide and conquer`
+> 		 - work only with 1 `node` 
+> - `process state at`:
+> 	-  `success` 
+> 	- `failures`
+> - `misc`
+> 	- do not forget `static_cast<int>(arr.size())` (`can't be -1`)
+> 	- `std::vector.insert(end(), val, freq)`
+> 	- use `flags`
+> 	- keep `moment of buy` minimal
+> 	- `mark values` (`make it negative`)
+> 	- index `str || arr` as: `arr[c - 'a']`
+
+___
+
 #array #binary_search #binary_search_tree #binary_tree #bit_manipulation #breadth-first-search #counting #counting_sort #depth-first-search #breadth-first-search #design #divide_and_conquer #dynamic_programming #geometry #graph #greedy #hash_function #hash_table #heap #linked_list #math #matrix #max_heap #min_heap #monotonic_stack #moore_voting_algorithm #number_theory #prefix_sum #priority_queue #simulation #sliding_window #sorting #stack #string #tree #two_pointers 
